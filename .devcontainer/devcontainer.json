@@ -1,0 +1,11 @@
+{
+  "name": "Roth Conversion Planner",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install streamlit pandas numpy matplotlib scipy",
+  "forwardPorts": [8501],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
